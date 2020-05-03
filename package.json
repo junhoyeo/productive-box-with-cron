@@ -1,0 +1,28 @@
+{
+  "name": "productive-box-with-cron",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "typings": "lib/index.d.ts",
+  "repository": "https://github.com/junhoyeo/react-native-keyboard-handle-view",
+  "author": {
+    "name": "JunhoYeo",
+    "email": "hanaro0704@naver.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "node lib/",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^13.13.4",
+    "@types/node-fetch": "^2.5.7",
+    "tslib": "^1.11.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@octokit/rest": "^17.6.0",
+    "dotenv": "^8.2.0"
+  }
+}
